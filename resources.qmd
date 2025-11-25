@@ -1,0 +1,21 @@
+---
+title: Resources
+---
+
+## Previous Hafró LSSS course websites
+
+-   Basic LSSS course at Hafró Jan 2023: <https://heima.hafro.is/~sigurdur/lsss_course/>
+-   Original basic LSSS course at Hafró Apr 2018: <https://heima.hafro.is/~sigurdur/lsss_course_apr2018/>
+
+## Textbooks
+
+
+## Papers
+
+## Course material and website repositories
+
+-   Data Science in a Box: [datasciencebox.org](https://datasciencebox.org/)
+
+-   Teaching Data Science Masterclass: [Workshop at posit::conf(2023)](https://github.com/posit-conf-2023/teach-ds-masterclass/)
+
+The website framework for the course pages is based on the 'teach-ds-masterclass' by Mine.

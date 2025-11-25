@@ -1,0 +1,51 @@
+project:
+  type: website
+
+website:
+  page-navigation: true
+  title: "Basic acoustics training course/workshop"
+  description: "Homepage for Hafró/MFRI Oct 2023 iteration of basic course/workshop"
+  site-url: "https://heima.hafro.is/~sigurdur/acou-train/"
+
+  repo-url: "https://github.com/sigurdurthorjonsson/acou-train"
+#  repo-actions: [edit, issue]
+
+  open-graph: true
+
+  page-footer:
+    left: "This page is built with [Quarto](https://quarto.org/)."
+    right: "![](images/hafro.png){width=25%}"
+    background: "#95a7bf"
+
+  sidebar:
+    background: "#95a7bf"
+    logo: "images/Sine_waves_different_frequencies.png"
+    pinned: true
+    align: center
+    tools:
+      - icon: gitlab
+        href: https://github.com/sigurduthorjonsson/acou-train
+        text: Github
+#      - icon: cloud-fill
+#        href: https://posit.cloud/spaces/397257
+#        text: Posit Cloud
+    style: docked
+    contents:
+     - href: index.qmd
+       text: Home
+     - href: about.qmd
+     - href: resources.qmd
+     - href: license.qmd
+
+format:
+  html:
+    theme:
+      light: [cosmo, style/theme.scss]
+      dark: [cosmo, style/theme-dark.scss]
+    toc: true
+    code-copy: true
+    code-overflow: scroll
+    mainfont: "Atkinson Hyperlegible"
+    highlight-style: a11y
+
+editor: visual
