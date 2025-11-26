@@ -1,11 +1,11 @@
 ---
 title: "Advanced LSSS and acoustics"
-subtitle: "4 day course and workshop at Hafró/MFRI"
+subtitle: "3 day workshop at Hafró/MFRI in preparation for the capelin surveys"
 ---
 
 ------------------------------------------------------------------------
 
-🗓️ December 3\--5, 2025
+🗓️ December 3--5, 2025
 
 ⏰ 09:00 - 12:00 and 13:00 - 16:00 on Thursday 4th.
 
@@ -13,26 +13,31 @@ subtitle: "4 day course and workshop at Hafró/MFRI"
 
 ------------------------------------------------------------------------
 
-+------------+-----------+-----------+-----------------------------------------+
-| Date       | Time      | Lead      | Topics                                  |
-+============+===========+===========+=========================================+
-| 2025-12-03 | 9-10      | TS, BS    | Basic acoustic theory\                  |
-|            |           |           | Calibration                             |
-+------------+-----------+-----------+-----------------------------------------+
-|            | 10-12     | BS,TS,SÞJ | Hands-on on-board ÁF                    |
-+------------+-----------+-----------+-----------------------------------------+
-| 2025-12-04 | 9-12      | ÞK\       | Simberg presentation\                   |
-|            |           | SB, SÞJ   | Sonar and Scanmar/Marport data\         |
-|            |           |           | ICES metadata, EK80 processed data      |
-+------------+-----------+-----------+-----------------------------------------+
-|            | 13-16     | BB, SÞJ   | Abundance estimation, survey design     |
-+------------+-----------+-----------+-----------------------------------------+
-| 2025-12-05 | 9-12      | TS        | Korona, acoustic categorization\        |
-|            |           |           | LSSS libraries -\> MFRI libraries       |
-+------------+-----------+-----------+-----------------------------------------+
-|            | 13-16     | SÞJ, KG \ |                                         |
-|            |           | TS        | BB acoustics in LSSS                    |
-+------------+-----------+-----------+-----------------------------------------+
++------------+------------+----------------+-------------------------------------------------------------------+
+| Date       | Time       | Lead           | Topics                                                            |
++============+============+================+===================================================================+
+| 2025-12-03 | 9-10       | TS, SÞj        | Basic acoustic theory\                                            |
+|            |            |                | Importance of calibration                                         |
+|            |            |                |                                                                   |
+|            |            |                | EK80 software overview                                            |
++------------+------------+----------------+-------------------------------------------------------------------+
+|            | 10-12      | BS,TS, SÞJ, SG | Hands-on on-board ÁF                                              |
+|            |            |                |                                                                   |
+|            |            |                | EK80,Open CPN, Sonar and ADCP                                     |
++------------+------------+----------------+-------------------------------------------------------------------+
+| 2025-12-04 | 9:00-9:30  | SÞJ\           | Presentation of results from capelin survey double coverage 2025\ |
++------------+------------+----------------+-------------------------------------------------------------------+
+|            | 9:30-12:00 | TS, SÞJ        | Sonar and Scanmar/Marport data\                                   |
+|            |            |                | ICES metadata, EK80 processed data                                |
+|            |            |                |                                                                   |
+|            |            |                | Installation of LSSS and start survey scrutinizations             |
++------------+------------+----------------+-------------------------------------------------------------------+
+|            | 13-16      | TS, SÞJ        | Installation of LSSS and start survey scrutinizations             |
++------------+------------+----------------+-------------------------------------------------------------------+
+| 2025-12-05 | 9:00-9:30  | TS             | Presentation: When to sample during the capelin surveys!          |
++------------+------------+----------------+-------------------------------------------------------------------+
+|            | 9:30-12:00 | TS, SG         | Continuation with the scrutinization                              |
++------------+------------+----------------+-------------------------------------------------------------------+
 
 : Schedule
 
@@ -40,25 +45,27 @@ subtitle: "4 day course and workshop at Hafró/MFRI"
 
 ## More detailed agenda (with links to course materials *to be added*)
 
-### 1st day De3 3
+### 1st day Dec 3rd
 
-Birkir \~2h
+Siggi & Teresa (1h)
 
-Basic theoretical acoustics course: [Birkir pptx #1](materials/thursday/birkir/pelagicsurvey1.pptx) [pptx #2](materials/thursday/birkir/pelagicsurvey2.pptx) [pptx #3](materials/thursday/birkir/pelagicsurvey3.pptx)
+- Basic acoustic theory\
+- Importance of calibration
 
-Sigvaldi and Birkir (1h)
+- EK80 software overview
 
-Calibration Ek80 calibration
-
-Siggi & Teresa (\~3 h after lunch)
-
-Recap from basic course in Jan 2023!
+Siggi, Bjossi, Sigvaldi and Teresa (\~2 h after 10 PM break)
+- Hands-on on-board ÁF
+    - EK80,Open CPN, Sonar and ADCP
+- Recap from basic course in Jan 2023!
 
 ### 2nd day Dec 4
 
-Steini frá Simberg (\~1 & 1/2 h)
+Siggi & Teresa (\~30min)
 
--   Presentation of Simrad technology (copy of pptx available on course folder on network and external usb-drive)
+-   Recap from basic course in Jan 2023!
+-   Presentation of comparison results from capelin survey double coverage 2025
+-   [Presentation slides](materials/monday/teresa/Post-processing_LSSS_teresa_Silva.pptx)
 
 Sigurvin & Siggi
 
@@ -66,31 +73,20 @@ Sigurvin & Siggi
 -   [EK80 Processed data](materials/friday/siggi/adcp-ek-bot-lsss/)
 -   Discussion about Trawl trawl trajectory on echogram with Marport/Scanmar integration
 
-Birkir & Siggi (2h) (after lunch)
-
-Abundance estimation, survey design. [After the fact slides from Siggi reflecting on afternoon discussion](materials/friday/siggi/sur-design-biomass-est).
+-   Installation of LSSS and start survey scrutinizations
 
 ### 3rd day Dec 5
 
 Teresa
+-   When to sample during the capelin surveys!
+-   Continuation with the scrutinization
 
--   Korona module introduction 
--   Identification of acoustic categories
--   creation of acoustics LSSS libraries
--   I propose we build a MFRI library that new data should be added yearly!
 
 [Teresa's slides](materials/monday/teresa/Post-processing_LSSS_teresa_Silva.pptx) and [simple demo](materials/monday/teresa/SimpleDemo.zip).
 
-### 4th day Oct 31
 
-Teresa, Kiddi (assistance) & Siggi 
-
--   [Echopype](materials/tuesday/siggi/echopype/)
--   Broadband acoustics in LSSS visualization and extraction of data
 
 ### Any other ideas (alongside the other stuff)
 
--   MFRI acoustic Handbook (we need volunteers)
--   MFRI acoustic scrapbook (we need volunteers)
-
 The workshop set up a plan to set these two tasks in motion.
+SAVE the dates for the advance acoustic course at Hafró Dec 3-5, 2026.
