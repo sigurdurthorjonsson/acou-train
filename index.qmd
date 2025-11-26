@@ -13,31 +13,31 @@ subtitle: "3 day workshop at Hafró/MFRI in preparation for the capelin surveys"
 
 ------------------------------------------------------------------------
 
-+------------+------------+----------------+-------------------------------------------------------------------+
-| Date       | Time       | Lead           | Topics                                                            |
-+============+============+================+===================================================================+
-| 2025-12-03 | 9-10       | TS, SÞj        | Basic acoustic theory\                                            |
-|            |            |                | Importance of calibration                                         |
-|            |            |                |                                                                   |
-|            |            |                | EK80 software overview                                            |
-+------------+------------+----------------+-------------------------------------------------------------------+
-|            | 10-12      | BS,TS, SÞJ, SG | Hands-on on-board ÁF                                              |
-|            |            |                |                                                                   |
-|            |            |                | EK80,Open CPN, Sonar and ADCP                                     |
-+------------+------------+----------------+-------------------------------------------------------------------+
-| 2025-12-04 | 9:00-9:30  | SÞJ\           | Presentation of results from capelin survey double coverage 2025\ |
-+------------+------------+----------------+-------------------------------------------------------------------+
-|            | 9:30-12:00 | TS, SÞJ        | Sonar and Scanmar/Marport data\                                   |
-|            |            |                | ICES metadata, EK80 processed data                                |
-|            |            |                |                                                                   |
-|            |            |                | Installation of LSSS and start survey scrutinizations             |
-+------------+------------+----------------+-------------------------------------------------------------------+
-|            | 13-16      | TS, SÞJ        | (OPTIONAL) Pratical scrutinization                                |
-+------------+------------+----------------+-------------------------------------------------------------------+
-| 2025-12-05 | 9:00-9:30  | TS             | Presentation: When to sample during the capelin surveys!          |
-+------------+------------+----------------+-------------------------------------------------------------------+
-|            | 9:30-12:00 | TS, SG         | Continuation with the scrutinization                              |
-+------------+------------+----------------+-------------------------------------------------------------------+
++------------+-------------+-------------------------------------------------+-------------------------------------------------------------------+--------+
+| Date       | Time        | Lead                                            | Topics                                                            |        |
++============+=============+=================================================+===================================================================+========+
+| 2025-12-03 | 9-10        | TS, SÞj                                         | Basic acoustic theory\                                            |        |
+|            |             |                                                 | Importance of calibration                                         |        |
+|            |             |                                                 |                                                                   |        |
+|            |             |                                                 | EK80 software overview                                            |        |
++------------+-------------+-------------------------------------------------+-------------------------------------------------------------------+--------+
+|            | 10-12       | BS,TS, SÞJ, SÁ                                  | Hands-on on-board ÁF                                              |        |
+|            |             |                                                 |                                                                   |        |
+|            |             |                                                 | EK80,Open CPN, Sonar and ADCP                                     |        |
++------------+-------------+-------------------------------------------------+-------------------------------------------------------------------+--------+
+| 2025-12-04 | 9:00-9:30   | SÞJ\                                            | Presentation of results from capelin survey double coverage 2025\ |        |
++------------+-------------+-------------------------------------------------+-------------------------------------------------------------------+--------+
+|            | 9:30-10:30  | SÞJ ,SG                                         | Sonar and Scanmar/Marport data\                                   |        |
+|            |             |                                                 | ICES metadata, EK80 processed data                                |        |
++------------+-------------+-------------------------------------------------+-------------------------------------------------------------------+--------+
+|            | 10:30-12:00 | SÞJ, TS                                         | Installation of LSSS and start survey scrutinizations             |        |
++------------+-------------+-------------------------------------------------+-------------------------------------------------------------------+--------+
+|            | 13-16       | TS, SÞJ                                         | (OPTIONAL) Pratical scrutinization                                |        |
++------------+-------------+-------------------------------------------------+-------------------------------------------------------------------+--------+
+| 2025-12-05 | 9:00-9:30   | TS                                              | Presentation: When to sample during the capelin surveys!          |        |
++------------+-------------+-------------------------------------------------+-------------------------------------------------------------------+--------+
+|            | 9:30-12:00  | TS, SÞJ \| Continuation with the scrutinization |                                                                   |        |
++------------+-------------+-------------------------------------------------+-------------------------------------------------------------------+--------+
 
 : Schedule
 
@@ -49,13 +49,17 @@ subtitle: "3 day workshop at Hafró/MFRI in preparation for the capelin surveys"
 
 Siggi & Teresa (1h)
 
--   Basic acoustic theory\
+-   Basic acoustic theory
 
 -   Importance of calibration
 
 -   EK80 software overview
 
-Siggi, Bjossi, Sigvaldi and Teresa (\~2 h after 10 PM break) - Hands-on on-board ÁF - EK80,Open CPN, Sonar and ADCP - Recap from basic course in Jan 2023!
+Siggi, Bjossi, Sigvaldi and Teresa (\~2 h after 10 PM break)
+
+-   Hands-on on-board ÁF
+-   EK80,Open CPN, Sonar and ADCP
+-   Recap from basic course in Jan 2023!
 
 ### 2nd day Dec 4
 
@@ -65,7 +69,7 @@ Siggi & Teresa (\~30min)
 -   Presentation of comparison results from capelin survey double coverage 2025
 -   [Presentation slides](materials/monday/teresa/Post-processing_LSSS_teresa_Silva.pptx)
 
-Sigurvin & Siggi
+Sigurvin & Siggi (1h)
 
 -   [Sonar Profos & ICES metadata](materials/friday/sigurvin/LSSS_course_sigurvin.pptx)
 
@@ -73,15 +77,15 @@ Sigurvin & Siggi
 
 -   Discussion about Trawl trawl trajectory on echogram with Marport/Scanmar integration
 
--   Installation of LSSS and start survey scrutinizations
+Siggi & Teresa (1.5h) - Installation of LSSS and start survey scrutinizations
 
 ### 3rd day Dec 5
 
 Teresa
 
-\- When to sample during the capelin surveys!
+-   When to sample during the capelin surveys! Teresa & Siggi (1h)
 
-\- Continuation with the scrutinization
+-   Continuation with the scrutinization
 
 [Teresa's slides](materials/monday/teresa/Post-processing_LSSS_teresa_Silva.pptx) and [simple demo](materials/monday/teresa/SimpleDemo.zip).
 
