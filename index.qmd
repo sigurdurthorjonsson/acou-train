@@ -49,15 +49,13 @@ subtitle: "3 day workshop at Hafró/MFRI in preparation for the capelin surveys"
 
 Siggi & Teresa (1h)
 
-- Basic acoustic theory\
-- Importance of calibration
+-   Basic acoustic theory\
 
-- EK80 software overview
+-   Importance of calibration
 
-Siggi, Bjossi, Sigvaldi and Teresa (\~2 h after 10 PM break)
-- Hands-on on-board ÁF
-    - EK80,Open CPN, Sonar and ADCP
-- Recap from basic course in Jan 2023!
+-   EK80 software overview
+
+Siggi, Bjossi, Sigvaldi and Teresa (\~2 h after 10 PM break) - Hands-on on-board ÁF - EK80,Open CPN, Sonar and ADCP - Recap from basic course in Jan 2023!
 
 ### 2nd day Dec 4
 
@@ -70,23 +68,19 @@ Siggi & Teresa (\~30min)
 Sigurvin & Siggi
 
 -   [Sonar Profos & ICES metadata](materials/friday/sigurvin/LSSS_course_sigurvin.pptx)
+
 -   [EK80 Processed data](materials/friday/siggi/adcp-ek-bot-lsss/)
+
 -   Discussion about Trawl trawl trajectory on echogram with Marport/Scanmar integration
 
 -   Installation of LSSS and start survey scrutinizations
 
 ### 3rd day Dec 5
 
-Teresa
--   When to sample during the capelin surveys!
--   Continuation with the scrutinization
-
+Teresa - When to sample during the capelin surveys! - Continuation with the scrutinization
 
 [Teresa's slides](materials/monday/teresa/Post-processing_LSSS_teresa_Silva.pptx) and [simple demo](materials/monday/teresa/SimpleDemo.zip).
 
-
-
 ### Any other ideas (alongside the other stuff)
 
-The workshop set up a plan to set these two tasks in motion.
-SAVE the dates for the advance acoustic course at Hafró Dec 3-5, 2026.
+The workshop set up a plan to set these two tasks in motion. SAVE the dates for the advance acoustic course at Hafró Dec 3-5, 2026.
