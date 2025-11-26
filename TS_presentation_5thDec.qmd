@@ -1,0 +1,5 @@
+---
+title: "When to take a sample"
+author: "Teresa"
+format: revealjs
+---
