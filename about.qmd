@@ -24,6 +24,5 @@ We want you to have a working LSSS installation on your computer, and have a goo
 
 [**Sigurvin Bjarnason**](http://heima.hafro.is/~sigurvin/) Sigurvin Bjarnason Marine biologist in the Pelagic division at Hafrannsóknastofnun since 2013, MS degree from the University of Iceland in 2016. Focus on research related to pelagic fish biology and herring stock assessment. Experience leading scientific surveys and acoustic monitoring of pelagic fish species.
 
-![](images/BirkirBardarson.jpg){style="float:right;padding: 0 0 0 10px;" fig-alt="Headshot of Birkir" width="200"}
 
 [**Sigvaldi Árnason**](http://heima.hafro.is/~sigvaldi/) lorem ipsum ...

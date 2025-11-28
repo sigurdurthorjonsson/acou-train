@@ -73,13 +73,11 @@ Sigurður & Teresa (1.5h) - Installation of LSSS and start survey scrutinization
 
 ### 3rd day Dec 5
 
-Teresa
+Teresa (1h)
 
--   When to sample! Teresa & Siggi (1h)
+-   When to sample during the capelin surveys! Timing Acoustic Surveys for Stock Assessment.
 
--   
-
-    Sigurvin & Siggi (1h)
+ Sigurvin & Sigurður (1h)
 
     -   [Sonar Profos & ICES metadata](materials/friday/sigurvin/LSSS_course_sigurvin.pptx)
 
@@ -87,11 +85,11 @@ Teresa
 
     -   Discussion about trawl trajectory on echogram with Marport/Scanmar integration
 
-        Sigurður & Teresa
+  Sigurður & Teresa
 
 -   Continuation with the scrutinization
 
-[Teresa's slides](materials/monday/teresa/Post-processing_LSSS_teresa_Silva.pptx) and [simple demo](materials/monday/teresa/SimpleDemo.zip).
+<!--[Teresa's slides](materials/monday/teresa/Post-processing_LSSS_teresa_Silva.pptx) and [simple demo](materials/monday/teresa/SimpleDemo.zip).->
 
 ### Other information:
 
