@@ -1,5 +1,5 @@
 ---
-title: "When to Sample Icelandic Capelin"
+title: "When to Sample Capelin"
 subtitle: "Timing Acoustic Surveys for Stock Assessment"
 author: "Teresa Silva and Sigurður Þ Jónsson"
 date: "December 5, 2024"
@@ -38,7 +38,7 @@ Capelin timing is particularly critical because of their role in the ecosystem a
 **Annual Cycle:**
 
 - **Spring (Mar-May):** Spawning migration and spawning
-- **Summer (Jun-Aug):** Feeding in open ocean
+- **Summer (Jun-Aug):** Feeding in open ocean 
 - **Autumn (Sep-Nov):** Feeding and maturation
 - **Winter (Dec-Feb):** Pre-spawning migration begins
 
@@ -188,7 +188,7 @@ Spawning migration behavior makes capelin most detectable in winter
 
 **Mitigation:**
 
-- Ice-strengthened research vessels
+- Ice-strengthened research vessels (Arni F is normaly used in winter close to ice as the personal is training for drifting ice)
 - Flexible scheduling (weather windows)
 - Extended survey period allocation
 :::
@@ -212,11 +212,11 @@ Spawning migration behavior makes capelin most detectable in winter
 
 - **38 kHz:** Standard for capelin surveys
 - Good penetration and detection
-- Clear separation from other species
+- Clear separation from other species if we use multifrequency
 
 **Challenges:**
 
-- Small target strength (small fish)
+- Small target strength (small fish) and different in Multiplefrequency response (Hector work)
 - Dense schools can cause acoustic shadowing
 - Need to distinguish from other small pelagics (herring juveniles)
 
