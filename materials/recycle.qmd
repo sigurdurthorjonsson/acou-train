@@ -132,11 +132,11 @@ Here are some aspects of LSSS and acoustic data collection and house-keeping tha
 
 * Utilization of sonar in fisheries research
 
-* Broad-band capable echosounders, big data. We have hopes of getting a wide band 18 kHZ transducer for both vessel in early 2026.
+* Broad-band capable echosounders, big data. We have hopes of getting a wide band 18 kHZ transducer for both vessel in 2026.
 
 * Standardizing Hafró/MFRI processing of acoustics data.
 
-* Central DB of survey results, read-only. Is already set up, awaiting input though.
+* Central DB of survey results, has already set up, awaiting input though.
 
 * ...
 
