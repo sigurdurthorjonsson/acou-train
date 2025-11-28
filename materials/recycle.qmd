@@ -1,0 +1,150 @@
+---
+title: "Acoustic training course - Hafró/MFRI December 2025"
+subtitle: "Revised preamble and intro from course and workshop in the use of LSSS at Hafró/MFRI, January 2023"
+output:
+  html_document: default
+bibliography: references.bib
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+# Preamble
+___
+
+## The course material
+
+The framework for this page is lifted from [an old training course in the R-environment pages](http://github.com/fishvice/tcrenv).
+
+* The source code for the course material is located at: [The github repo for the course](https://github.com/sigurdurthorjonsson/acou-train).
+
+* The course product will be at: [rendered website under heima.hafro.is/~sigurdur](https://heima.hafro.is/~sigurdur/acou_train).
+  
+
+## In preparation
+
+The aim of the course is at least twofold:
+
+- to train Hafró-personnel in basic use of the EK80 software used to control and run the scientific wide band echo sounder on resarch vessels and fising vessels collaborating with Hafró during acoustic surveys. 
+
+- and further to train participants in the acoustic post-processing program LSSS (for Large Scale Survey System), a program is written and maintained by Marec, a collaboration between Havforskningen/IMR and originally with Christian Michelsen
+Research/CMR in Bergen, but now with NORCE Norwegian Research Center.
+ 
+__Prior to the course__ please try to install:
+
+* LSSS version 3.1.0, available for download at:
+
+  - [Marec's LSSS download-site](https://www.marec.no/downloads.htm)
+
+where installers for Windows, linux and mac are available. Linux and mac users can e.g. unzip the program download under /opt and run with a simple shell script like the one below:
+
+> #! /bin/sh
+> 
+> /opt/lsss-3.1.0/lsss/LSSS.sh
+
+
+LSS was made open source at the start of 2025, Hafró previously had 5 licences on dongles and an IP-license on the hafro/hafogvatn-domain, these can be used to run previous e.g. version 2.17 for work with sonar data (the PROFOS-module was not included in the open-source 3+ versions).
+
+### Kongsberg Discovery's Simrad EK-programs
+
+Kongsberg Discovery Ocean Science site has manuals for the EK80 program used to run both traditional echosounders and the EC150 ADCP. Documentation is available on:
+
+[EK80 documentation site](https://www.kongsbergdiscovery.net/ek80/documents.htm)
+
+Further, the sonars on ÁF and ÞÞ are also Kongsberg Discovery, documentation to be had here:
+
+[the SU90 -- on Árni](https://www.kongsberg.com/discovery/fish-finding/fishery-sonars/simrad-su90/)
+
+and here:
+
+[the ST90 -- on Þórunn](https://www.kongsberg.com/discovery/fish-finding/fishery-sonars/simrad-st90/)
+
+
+Note that previously the program ER60 ran the EK60 echosounders (GPTs), but for the new generation of WBT-tranceivers the program and the sounder/transceivers are synonymous and both called EK80. On fishing vessels the transducers are often GPTs, but run with 'modern' versions of the ES software for fishing vessels, currently ES80, most of the time.
+
+### Some literature
+
+For those that want to get a head we recommend the following reading material:
+
+  * Simmonds & MacLennan's Fisheries Acoustics [@simmonds2005]
+  * The ICES calibration CRR [@demer2015]
+  * Rolf _et al._'s recent paper on categorization with LSSS [@korneliussen2017]
+  * Rolf _et_al._'s recent technical report in Norwegian on procedures for interpretation of acoustic data [@korneliussen2020]
+
+During our LSSS-course in 2018 a `scrutiny workshop` held by
+participants in the IESNS (May) survey in Reykjavík in March 2015 was discussed. The
+report of the workshop was added as an appendix to an ICES report of
+the WKSCRUT workshop held in the autumn the same year, a local copy can be accessed here:
+
+  * [Report of the ICES scrutiny workshop](WKSCRUT15.pdf) with the IESNS workshop report as an addendum [@ices2015] 
+
+'Bergmálshandbók Hafró' or the MFRI acoustics manual has been given
+[bookdown-treatment](https://github.com/sigurdurthorjonsson/bergmals_handbok)
+and can now be found with a couple of new appendices
+[online](http://www.hafro.is/~sigurdur/bergmals_handbok). The
+LSSS-course/workshop will hopefully yield additions/improvements to the manual.
+ 
+## Collection of material from previous courses and acoustic data on Hafró-net
+
+Acoustic data and course materials from previous LSSS-courses, held both at Hafró and at IMR, Bergen, are available on file server Hafrún, accessible as `/u5/bergmal` in linux, Windows users can gain access by typing in `\\hafrun\u5\` in the address bar of Windows File Explorer and then descend into the folder `bergmal`. 
+
+__CAVEAT__ Only those in unix/linux-group 'bergmal' on Hafró-net can access the 'bergmal-drive'.__ We are advocating for read access for all on the common network drives, but if and when that will succeed is uncertain.
+
+
+### LSSS-course materials
+
+Course materials from a course held at IMR in Bergen in 2022
+are are available (and also earlier LSSS-courses we've commissioned or attended), courtesy of Rolf Korneliussen and colleagues, are to be found under `bergmal` in folder:
+
+`LSSS_namskeid/LSSS_COURSE_2022`
+
+with sub-directories containing pdf-s of help files and presentations along with a document describing Norwegian procedures dealing with acousic data, their scrutiny etc.
+
+Here are links to Marec's LSSS-page and a page for upcoming course at the end of the month:
+
+* [Marec LSSS-page](https://marec.no/)
+
+* [Marec January 2023 LSSS-course](https://marec.no/course/LSSS_course_2023_January.pdf)
+
+### Acoustic data
+
+A significant proportion of the acoustic data collection of
+Hafró is available under `bergmal` in the directories `EK60raw` and `EK80raw`, organized in
+subfolders by survey (`[AB]YYYY_NR`, where [AB] is denotes wether the survey was conducted on Árni or Bjarni). Other surveys identified by survey-id using other letters. This structure is subject to revision. Course/workshop participants can locate surveys of
+interest, copy them to their personal drives and set up analysis
+in LSSS.
+
+ 
+## Part II or to be continued
+
+In future, prior to multi-vessel surveys we will aim for 1/2- or 1-day
+crash courses for the personnel manning the acoustic instruments.
+
+The plan is to arrange a more advanced LSSS-course at Hafró later in
+2023, dates to be set soon.
+
+We also hope to get instructors from IMR/Marec to give a LSSS-course
+in the not too distant future.
+
+Here are some aspects of LSSS and acoustic data collection and house-keeping that need to be considered:
+
+* Utilization of sonar in fisheries research
+
+* Broad-band capable echosounders, big data. We have hopes of getting a wide band 18 kHZ transducer for both vessel in early 2026.
+
+* Standardizing Hafró/MFRI processing of acoustics data.
+
+* Central DB of survey results, read-only. Is already set up, awaiting input though.
+
+* ...
+
+## Addendums
+
+* Bits and pieces - collection of stuff made in the follow-up to the course and workshop. __link to course report to be added__
+
+# Citations
+___
+
+

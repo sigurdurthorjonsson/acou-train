@@ -45,6 +45,11 @@ subtitle: "3 day workshop at Hafró/MFRI in preparation for the capelin surveys"
 
 ## More detailed agenda (with links to course materials *to be added*)
 
+### Before course start
+
+Participants could familiarize themselves with [info given on this link](materials/recycle.qmd).
+
+
 ### 1st day Dec 3rd
 
 Teresa (1h)
