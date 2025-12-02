@@ -117,6 +117,33 @@ interest, copy them to their personal drives and set up analysis
 in LSSS.
 
  
+#### Data for this course
+
+Three surveys have been selected, first coverage of the capelin grounds in 2025. The full dataset from these surveys will be made available on an external disk, as:
+
+```
+sigurdur@HAFRO-SIGURDUR tarajoq % du -hs *
+279G	A2025_02
+ 48G	AMM2025_01
+6.2G	BARD2025_01
+```
+
+with disk usage and folder name in the two columns. The same data sets (though only partial for Árni and Polar Ammassak) can also be accessed on the Hafró-ftp-server, as:
+
+```
+hafbjarmi/net/hafgola/var/ftp/pub/data/Raw [551] du -hs *
+64G	A2025_02
+45G	AMM2025_01
+6.2G	BARD2025_01
+```
+
+disk usage given as before. To access the data from a command line this should work to get one survey:
+
+> wget -r ftp://ftp.hafro.is/pub/data/Raw/BARD2025_01
+
+to access the data from Barði. Note the Árni and Polar Ammassak data are bigger.
+
+
 ## Part II or to be continued
 
 In future, prior to multi-vessel surveys we will aim for 1/2- or 1-day
