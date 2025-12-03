@@ -1,0 +1,98 @@
+---
+title: "ADCP, .bot, .xyz in EK80, finding bottom in LSSS"
+subtitle: "Hafró/MFRI Dec 4 2025 <br> EK80 and LSSS acoustics training course/workshop"
+author: "Sigurður Þór Jónsson"
+footer: "[🔗 https://heima.hafro.is/~sigurdur/acou-train/](https://heima.hafro.is/~sigurdur/adv-lsss-acou/materials/thursday-4th/siggi/adcp-ek-bottom-lsss) / SÞJ Thursday"
+logo: "../../../../images/hafro.png"
+format: 
+  revealjs:
+    theme: slides/slides.scss
+    multiplex: true
+    transition: fade
+    slide-number: c
+    incremental: false 
+    chalkboard: true
+execute:
+  freeze: auto
+  echo: true
+knitr:
+  opts_chunk: 
+    R.options:
+      width: 200
+---
+
+# Welcome
+
+```{r}
+#| include: false
+
+library(tidyverse)
+```
+
+## Introductions {.smaller .center}
+
+![](../../../../images/stj_posit.JPEG){fig-alt="Sigurður Þór Jónsson" fig-align="center" width="200"}
+
+::: {style="text-align: center;"}
+Sigurður Þór Jónsson <br>
+
+Fisheries biologist and acoustician, Hafró/Marine and Freshwater Research Institute <br>
+
+R and quarto enthusiast
+:::
+
+## Introduction
+
+-   Will be demoing some EK80 functionality related to ADCP data and bottom detection that we might may use of.
+
+-   Intended to show a simple Korona workflow that was established a while ago and has perhaps been underutilized.
+
+## ADCP output dialog
+
+![](images/adcp-output-dialog.png){fig-alt="ADCP output dialog" fig-align="center"}
+
+-   For converting raw to netCDF with new option of just converting the adcp-part of the raw-file.
+
+## XYZ
+
+![](images/xyz.png){fig-alt="xyz" fig-align="center"}
+
+-   Generate ascii-output file, three column layout, Greenland 'always' processes to xyx on Tarajoq, since their waters are uncharted to a considerable extent.
+
+## Bottom and all
+
+![](images/bot-and-all.png){fig-alt="Bottom and all" fig-align="center"}
+
+-   Here the EK80 is set-up to record three types of outputs. Some care needed in directing them to correct places.
+
+## Output:File setup
+
+![](images/output.png){fig-alt="output" fig-align="center"}
+
+-   The 'public' folder would be a survey folder out on survey.
+
+## Record on
+
+![](images/record-on.png){fig-alt="Record on" fig-align="center"}
+
+-   Here in replay mode recommend doing this during collection to have it done!
+
+## Record on, zoomed
+
+![](images/record-on-zoom.png){fig-alt="Record on zoomed" fig-align="center"}
+
+-   blabla
+
+## Korona bottom
+
+More than 5 year ago I got some functionality introduced into Korona
+
+-   Instad of 'white-ing' out the bottom (white line on fishermans echogram), I requested keeping a bottom layer and throwing everything else out.
+
+-   Can be useful under the rubric '**bottom as a reference**' if you e.g. cross the 'same' bottom more than once.
+
+-   Ran into some trouble locating and recreating ending with overheating my laptop this morning! 
+
+-   Demo an example with 'hand' generated bottom layer export
+
+## Thank you for your attention! {background-color="black" background-image="../../../../images/stj_posit.JPEG" background-size="100px" background-repeat="repeat"}

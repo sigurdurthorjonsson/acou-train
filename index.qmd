@@ -52,7 +52,7 @@ Participants could familiarize themselves with [info given on this link](materia
 
 ### 1st day Dec 3rd
 
-Teresa (1h)[presentation slides] (materials/wednesday-3rd/fisheries_acoustics_ts.pptx)
+Teresa (1/2 h) [presentation slides](materials/wednesday-3rd/fisheries_acoustics_ts.pptx)
 
 -   Basic acoustic theory
 
@@ -84,9 +84,9 @@ Teresa (1h)
 
  Sigurvin & Sigurður (1h)
 
-    -   [Sonar Profos & ICES metadata](materials/friday/sigurvin/LSSS_course_sigurvin.pptx)
+[Sonar Profos & ICES metadata](materials/thursday-4th/sigurvin/LSSS_course_sigurvin.pptx)
 
-    -   [EK80 Processed data](materials/friday/siggi/adcp-ek-bot-lsss/)
+[EK80 Processed data](materials/thursday-4th/siggi/adcp-ek-bot-lsss/)
 
     -   Discussion about trawl trajectory on echogram with Marport/Scanmar integration
 

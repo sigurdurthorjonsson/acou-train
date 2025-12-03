@@ -1,0 +1,95 @@
+---
+title: "ADCP, .bot, .xyz in EK80, finding bottom in LSSS"
+subtitle: "MFRI Oct 23 2023 <br> Advanced LSSS and acousics course/workshop"
+author: "Sigurður Þór Jónsson"
+footer: "[🔗 https://heima.hafro.is/~sigurdur/adv-lsss-acou/](https://heima.hafro.is/~sigurdur/adv-lsss-acou/materials/friday/adcp-ek-bottom-lsss) / SÞJ Friday"
+logo: "images/hafro.png"
+format: 
+  revealjs:
+    theme: slides/slides.scss
+    multiplex: true
+    transition: fade
+    slide-number: c
+    incremental: false 
+    chalkboard: true
+execute:
+  freeze: auto
+  echo: true
+knitr:
+  opts_chunk: 
+    R.options:
+      width: 200
+---
+
+# Welcome
+
+```{r}
+#| include: false
+
+library(tidyverse)
+```
+
+## Introductions {.smaller .center}
+
+::: columns
+::: {.column width="50%"}
+![](images/stj_posit.jpeg){fig-alt="Sigurður Þór Jónsson" fig-align="center" width="200"}
+
+::: {style="text-align: center;"}
+Sigurður Þór Jónsson <br>
+
+Fisheries biologist and acoustician, Hafró/Marine and Freshwater Research Institute <br>
+
+R and quarto enthusiast
+:::
+:::
+
+## Introduction
+
+-   Will be demoing some EK80 functionality related to ADCP data and bottom detection that we might may use of.
+
+-   Will show a simple Korona workflow that was established a while ago and has been underutilized.
+
+## ADCP output dialog
+
+![](images/adcp-output-dialog.png){fig-alt="ADCP output dialog" fig-align="center"}
+
+-   For converting raw to netCDF with new option of just converting the adcp-part of the raw-file.
+## XYZ
+
+![](images/xyz.png){fig-alt="xyz" fig-align="center"}
+
+-   blabla
+## Bottom and all
+
+![](images/bot-and-all.png){fig-alt="Bottom and all" fig-align="center"}
+
+-   blabla
+
+## Output
+
+![](images/output.png){fig-alt="output" fig-align="center"}
+
+-   blabla
+
+## Record on
+
+![](images/record-on.png){fig-alt="Record on" fig-align="center"}
+
+-   blabla
+
+## Record on, zoomed
+
+![](images/record-on-zoom.png){fig-alt="Record on zoomed" fig-align="center"}
+
+-   blabla
+
+
+## Korona bottom
+
+More than 5 year ago I got some functionality introduced into Korona
+
+- Instad of 'white-ing' out the bottom (white line on fishermans echogram), I requested keeping a bottom layer and throwing everything else out.
+
+- Can be useful under the rubric '**bottom as a reference**' if you e.g. cross the 'same' bottom more than once.
+
