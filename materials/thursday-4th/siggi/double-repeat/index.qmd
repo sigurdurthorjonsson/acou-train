@@ -1,0 +1,204 @@
+---
+title: "Double repeated acoustic measurement of capelin"
+subtitle: "Hafró/MFRI Dec 4 2025 <br> EK80 and LSSS acoustics training course/workshop"
+author: 
+  - Sigurður Þór Jónsson
+  - Teresa da Silva
+footer: "[🔗 https://heima.hafro.is/~sigurdur/acou-train/](https://heima.hafro.is/~sigurdur/acou-train/materials/thursday-4th/siggi/double-repeat) / SÞJ Thursday"
+logo: "../../../../images/hafro.png"
+format: 
+  revealjs:
+    theme: slides/slides.scss
+    multiplex: true
+    transition: fade
+    slide-number: c
+    incremental: false 
+    chalkboard: true
+execute:
+  freeze: auto
+  echo: true
+knitr:
+  opts_chunk: 
+    R.options:
+      width: 200
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(lubridate)
+library(geo)
+
+knitr::opts_chunk$set(echo=FALSE, message=FALSE, warning=FALSE, dpi=192)
+Sys.setlocale("LC_TIME","en_US.UTF-8")
+par(mar=c(0.1,0.1,0.1,0.1),omi=c(0,0,0,0))
+```
+
+## Introduction
+
+-   Instead of presenting comparisons of independent interpretation of the same acoustic registrations, we decided to:
+
+-   present a comparison of two independent synoptic coverages of the same capelin registrations
+
+-   Undertaken east Iceland during 27--31 January 2025 on two vessels
+
+## Background --- first coverage
+
+```{r}
+#| label: fig-first-perbars
+#| fig-cap: "'Perbars' of capelin NASC in 0.1 nmi intervals in first coverage, 16--24 January 2025."
+#| out-width: "150%" 
+
+attach("~/github/double-repeat/BARD1-2025/sr-run/work.RData")
+
+mylim <- list(lat = c(63.5,68.05), lon = c(-16.25, -8.95))
+mycol <- c("lavender","palegreen","mistyrose", 
+           "rosybrown", "thistle", "pink", "seashell")
+
+geoplot(all, type = "n", grid = F, xlim = mylim)
+srgrid(rdata$r, col = mycol[1])
+gbplot(500, lty = 2, col = "grey")
+geolines(peri, col="orange", lwd = 2)
+geolines(arni, col = "lightblue")
+tmp <- arni[arni$cap > 0,]
+geosymbols(tmp, z=tmp$cap, perbars = 0.5,
+  col = "blue", maxn = max(all$cap))
+geolines(bardi, col = "lightgreen")
+tmp <- bardi[bardi$cap > 0,]
+geosymbols(tmp, z=tmp$cap, perbars = 0.5,
+  col = "green", maxn = max(all$cap))
+geolines(ammassak, col = "pink")
+tmp <- ammassak[ammassak$cap > 0,]
+geosymbols(tmp, z=tmp$cap, perbars = 0.5,
+  col = "red", maxn = max(all$cap))
+geolines(heimaey, col = "cyan")
+
+detach()
+```
+
+## M & M
+
+:::: {.columns}
+
+::: {.column width="40%"}
+-   used a hacked version of old the [Sea2Data/Rstox package](https://github.com/Sea2Data/Rstox)
+
+-   has now been incorporated in the [StoXProject/RstoxBase package](https://github.com/StoXProject/RstoxBase)
+
+:::
+
+::: {.column width="60%"}
+
+![](second-go.png){width=80%}
+
+:   Transect lay-out
+
+:::
+
+::::
+
+
+## Results --- Polar Ammassak
+
+```{r}
+#| label: fig-ammassak-perbars
+#| fig-cap: "'Perbars' of capelin NASC in 0.1 nmi intervals intervals in second coverage, Polar Ammassak,  28--31 January."
+#| out-width: "150%" 
+
+attach("~/github/double-repeat/bara-ammassak/work.RData")
+
+geoplot(all, type = "n", grid = F, xlim = mylim)
+geolines(greenland)
+srgrid(rdata$r, col = mycol[1])
+gbplot(500, lty = 2, col = "grey")
+geolines(peri, col="orange", lwd = 2)
+geolines(ammassak, col = "pink")
+tmp <- ammassak[ammassak$cap > 0,]
+geosymbols(tmp, z=tmp$cap, perbars = 0.5,
+  col = "red", maxn = max(all$cap))
+
+detach()
+```
+
+## Results --- Aðalsteinn Jónsson
+
+```{r}
+#| label: fig-alli-perbars
+#| fig-cap: "'Perbars' of capelin NASC in 0.1 sjm intervals in second coverage, Aðalsteinn Jónsson, 28--31 January."
+#| out-width: "150%" 
+
+attach("~/github/double-repeat/bara-alli/work.RData")
+
+geoplot(all, type = "n", grid = F, xlim = mylim)
+srgrid(rdata$r, col = mycol[1])
+gbplot(500, lty = 2, col = "grey")
+geolines(peri, col="orange", lwd = 2)
+geolines(adalsteinn, col = "cyan")
+tmp <- adalsteinn[adalsteinn$cap > 0,]
+geosymbols(tmp, z=tmp$cap, perbars = 0.5,
+  col = "darkcyan", maxn = max(all$cap))
+
+detach()
+```
+
+## Results --- Uncertainty estimation
+
+```{r}
+#| label: fig-boot
+#| fig-cap: "Distribution of bootstrap replicates of SSB in different coverages off East Iceland"
+#| out-width: "100%" 
+
+"~/github/double-repeat/BARD1-2025/sr-run/areaQCV/bootResult.rds" |>
+  read_rds() |>
+  filter(area==1,para=="SSB") |>
+  pull(value) -> first
+ammassak <- read_rds("~/github/double-repeat/bara-ammassak/areaQCV/ssb-winter-2025_second-coverage-bara-ammassak.rds")
+alli <- read_rds("~/github/double-repeat/bara-alli/areaQCV/ssb-winter-2025_second-coverage-bara-alli.rds")
+second <- read_rds("~/github/double-repeat/areaQCV/ssb-winter-2025_second-coverage-ammassak-adalsteinn.rds")
+
+ssb <- matrix(c(first,ammassak,alli,second),ncol=4,
+  dimnames=list(NULL,c("First coverage","Ammassak","Aðalsteinn","Second coverage both vessels")))
+
+boxplot(ssb/1e9,outline=FALSE,ylab="SSB (thous. tonnes)")
+```
+
+## Results --- Uncertainty estimation II
+
+```{r}
+#| label: tbl-boot
+#| tbl-cap: "Descriptive statistics of bootstrap-replicates for first coverage, the coverages of Polar Ammassak and Aðalsteinn Jónsson, and second coverage both vessels together. SSB, 5%-tile and median in thous. tonnes, CV bootstrap coefficient of variation." 
+
+ssb <- data.frame(Coverage=rep(dimnames(ssb)[[2]],rep(1e5,4)),ssb=as.vector(ssb))
+
+ssb |>
+  mutate(ssb=ssb/1e9) |>
+  group_by(Coverage) |>
+  summarize(SSB=mean(ssb),
+    CV=sd(ssb)/mean(ssb),
+    `5%-tile`=quantile(ssb,0.05),
+    `Median`=median(ssb)) |>
+  knitr::kable(digits=c(NA,1,2,1,1))
+```
+
+## Revised results
+
+-   Showing the improvement in CV when we average the two estimates and replicates instead of taking rectangle average NASCs from the combined coverage of both vessels
+
+```{r}
+#| label: fig-newboot
+#| fig-cap: "Distribution of bootstrap replicates of SSB of both vessels treated differently"
+#| out-width: "100%" 
+ssb <- matrix(c(second, (ammassak+alli)/2),ncol=2,
+  dimnames=list(NULL,c("Both vessels", "Replicates averaged")))
+
+boxplot(ssb/1e9,outline=FALSE,ylab="SSB (thous. tonnes)")
+```
+
+## Discussion
+
+- finish review of the sparse and grey literature of repeat coverages of various salt- and freshwater stocks
+
+- Add more examples of double or repeat coverages, e.g. coarser when we have alternated the transects of two vessels in a synoptic coverage, and when we have covered the capelin migration both with and against the direction of migrations, back-to-back.
+
+- any suggestions or questions ???
+
+## Thank you for your attention! {background-color="black" background-image="../../../../images/stj_posit.JPEG" background-size="100px" background-repeat="repeat"}

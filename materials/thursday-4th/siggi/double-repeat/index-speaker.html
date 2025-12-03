@@ -10,7 +10,8 @@
   <meta name="generator" content="quarto-1.8.26">
 
   <meta name="author" content="Sigurður Þór Jónsson">
-  <title>Basic acoustics training course/workshop – ADCP, .bot, .xyz in EK80, finding bottom in LSSS</title>
+  <meta name="author" content="Teresa da Silva">
+  <title>Basic acoustics training course/workshop – Double repeated acoustic measurement of capelin</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -123,7 +124,7 @@
       margin-right: 0; 
     }
   </style>
-<meta property="og:title" content="ADCP, .bot, .xyz in EK80, finding bottom in LSSS – Basic acoustics training course/workshop">
+<meta property="og:title" content="Double repeated acoustic measurement of capelin – Basic acoustics training course/workshop">
 <meta property="og:description" content="Hafró/MFRI Dec 4 2025  EK80 and LSSS acoustics training course/workshop">
 <meta property="og:site_name" content="Basic acoustics training course/workshop">
 </head>
@@ -132,7 +133,7 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">ADCP, .bot, .xyz in EK80, finding bottom in LSSS</h1>
+  <h1 class="title">Double repeated acoustic measurement of capelin</h1>
   <p class="subtitle">Hafró/MFRI Dec 4 2025 <br> EK80 and LSSS acoustics training course/workshop</p>
 
 <div class="quarto-title-authors">
@@ -141,79 +142,147 @@
 Sigurður Þór Jónsson 
 </div>
 </div>
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Teresa da Silva 
+</div>
+</div>
 </div>
 
-</section>
-<section>
-<section id="welcome" class="title-slide slide level1 center">
-<h1>Welcome</h1>
-
-</section>
-<section id="introductions" class="slide level2 smaller center">
-<h2>Introductions</h2>
-
-<img data-src="../../../../images/stj_posit.JPEG" class="quarto-figure quarto-figure-center r-stretch" alt="Sigurður Þór Jónsson" width="200"><div style="text-align: center;">
-<p>Sigurður Þór Jónsson <br></p>
-<p>Fisheries biologist and acoustician, Hafró/Marine and Freshwater Research Institute <br></p>
-<p>R and quarto enthusiast</p>
-</div>
 </section>
 <section id="introduction" class="slide level2">
 <h2>Introduction</h2>
 <ul>
-<li><p>Will be demoing some EK80 functionality related to ADCP data and bottom detection that we might may use of.</p></li>
-<li><p>Intended to show a simple Korona workflow that was established a while ago and has perhaps been underutilized.</p></li>
+<li><p>Instead of presenting comparisons of independent interpretation of the same acoustic registrations, we decided to:</p></li>
+<li><p>present a comparison of two independent synoptic coverages of the same capelin registrations</p></li>
+<li><p>Undertaken east Iceland during 27–31 January 2025 on two vessels</p></li>
 </ul>
 </section>
-<section id="adcp-output-dialog" class="slide level2">
-<h2>ADCP output dialog</h2>
+<section id="background-first-coverage" class="slide level2">
+<h2>Background — first coverage</h2>
 
-<img data-src="images/adcp-output-dialog.png" class="quarto-figure quarto-figure-center r-stretch" alt="ADCP output dialog"><ul>
-<li>For converting raw to netCDF with new option of just converting the adcp-part of the raw-file.</li>
+<img data-src="index_files/figure-revealjs/fig-first-perbars-1.png" style="width:150.0%" class="r-stretch quarto-figure-center" id="fig-first-perbars"><p class="caption">
+Figure&nbsp;1: ‘Perbars’ of capelin NASC in 0.1 nmi intervals in first coverage, 16–24 January 2025.
+</p></section>
+<section id="m-m" class="slide level2">
+<h2>M &amp; M</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<ul>
+<li><p>used a hacked version of old the <a href="https://github.com/Sea2Data/Rstox">Sea2Data/Rstox package</a></p></li>
+<li><p>has now been incorporated in the <a href="https://github.com/StoXProject/RstoxBase">StoXProject/RstoxBase package</a></p></li>
+</ul>
+</div><div class="column" style="width:60%;">
+<dl>
+<dt><img data-src="second-go.png" style="width:80.0%"></dt>
+<dd>
+<p>Transect lay-out</p>
+</dd>
+</dl>
+</div></div>
+</section>
+<section id="results-polar-ammassak" class="slide level2">
+<h2>Results — Polar Ammassak</h2>
+
+<img data-src="index_files/figure-revealjs/fig-ammassak-perbars-1.png" style="width:150.0%" class="r-stretch quarto-figure-center" id="fig-ammassak-perbars"><p class="caption">
+Figure&nbsp;2: ‘Perbars’ of capelin NASC in 0.1 nmi intervals intervals in second coverage, Polar Ammassak, 28–31 January.
+</p></section>
+<section id="results-aðalsteinn-jónsson" class="slide level2">
+<h2>Results — Aðalsteinn Jónsson</h2>
+
+<img data-src="index_files/figure-revealjs/fig-alli-perbars-1.png" style="width:150.0%" class="r-stretch quarto-figure-center" id="fig-alli-perbars"><p class="caption">
+Figure&nbsp;3: ‘Perbars’ of capelin NASC in 0.1 sjm intervals in second coverage, Aðalsteinn Jónsson, 28–31 January.
+</p></section>
+<section id="results-uncertainty-estimation" class="slide level2">
+<h2>Results — Uncertainty estimation</h2>
+
+<img data-src="index_files/figure-revealjs/fig-boot-1.png" style="width:100.0%" class="r-stretch quarto-figure-center" id="fig-boot"><p class="caption">
+Figure&nbsp;4: Distribution of bootstrap replicates of SSB in different coverages off East Iceland
+</p></section>
+<section id="results-uncertainty-estimation-ii" class="slide level2">
+<h2>Results — Uncertainty estimation II</h2>
+<div class="cell">
+<div id="tbl-boot" class="cell quarto-float quarto-figure quarto-figure-center">
+<figure class="quarto-float quarto-float-tbl">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-boot-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;1: Descriptive statistics of bootstrap-replicates for first coverage, the coverages of Polar Ammassak and Aðalsteinn Jónsson, and second coverage both vessels together. SSB, 5%-tile and median in thous. tonnes, CV bootstrap coefficient of variation.
+</figcaption>
+<div aria-describedby="tbl-boot-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="cell-output-display">
+<table class="do-not-create-environment cell caption-top">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Coverage</th>
+<th style="text-align: right;">SSB</th>
+<th style="text-align: right;">CV</th>
+<th style="text-align: right;">5%-tile</th>
+<th style="text-align: right;">Median</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Ammassak</td>
+<td style="text-align: right;">126.3</td>
+<td style="text-align: right;">0.27</td>
+<td style="text-align: right;">73.0</td>
+<td style="text-align: right;">124.5</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Aðalsteinn</td>
+<td style="text-align: right;">117.8</td>
+<td style="text-align: right;">0.34</td>
+<td style="text-align: right;">61.1</td>
+<td style="text-align: right;">113.2</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">First coverage</td>
+<td style="text-align: right;">179.6</td>
+<td style="text-align: right;">0.36</td>
+<td style="text-align: right;">91.0</td>
+<td style="text-align: right;">172.2</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Second coverage both vessels</td>
+<td style="text-align: right;">125.0</td>
+<td style="text-align: right;">0.29</td>
+<td style="text-align: right;">71.6</td>
+<td style="text-align: right;">121.6</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</figure>
+</div>
+</div>
+</section>
+<section id="revised-results" class="slide level2">
+<h2>Revised results</h2>
+<ul>
+<li>Showing the improvement in CV when we average the two estimates and replicates instead of taking rectangle average NASCs from the combined coverage of both vessels</li>
+</ul>
+
+<img data-src="index_files/figure-revealjs/fig-newboot-1.png" style="width:100.0%" class="r-stretch quarto-figure-center" id="fig-newboot"><p class="caption">
+Figure&nbsp;5: Distribution of bootstrap replicates of SSB of both vessels treated differently
+</p></section>
+<section id="discussion" class="slide level2">
+<h2>Discussion</h2>
+<ul>
+<li><p>finish review of the sparse and grey literature of repeat coverages of various salt- and freshwater stocks</p></li>
+<li><p>Add more examples of double or repeat coverages, e.g.&nbsp;coarser when we have alternated the transects of two vessels in a synoptic coverage, and when we have covered the capelin migration both with and against the direction of migrations, back-to-back.</p></li>
+<li><p>any suggestions or questions ???</p></li>
 </ul>
 </section>
-<section id="xyz" class="slide level2">
-<h2>XYZ</h2>
-
-<img data-src="images/xyz.png" class="quarto-figure quarto-figure-center r-stretch" alt="xyz"><ul>
-<li>Generate ascii-output file, three column layout, Greenland ‘always’ processes to xyx on Tarajoq, since their waters are uncharted to a considerable extent.</li>
-</ul>
-</section>
-<section id="bottom-and-all" class="slide level2">
-<h2>Bottom and all</h2>
-
-<img data-src="images/bot-and-all.png" class="quarto-figure quarto-figure-center r-stretch" alt="Bottom and all"><ul>
-<li>Here the EK80 is set-up to record three types of outputs. Some care needed in directing them to correct places.</li>
-</ul>
-</section>
-<section id="outputfile-setup" class="slide level2">
-<h2>Output:File setup</h2>
-
-<img data-src="images/output.png" class="quarto-figure quarto-figure-center r-stretch" alt="output"><ul>
-<li>The ‘public’ folder would be a survey folder out on survey.</li>
-</ul>
-</section>
-<section id="record-on" class="slide level2">
-<h2>Record on</h2>
-
-<img data-src="images/record-on.png" class="quarto-figure quarto-figure-center r-stretch" alt="Record on"><ul>
-<li>Here in replay mode recommend doing this during collection to have it done!</li>
-</ul>
-</section>
-<section id="record-on-zoomed" class="slide level2">
-<h2>Record on, zoomed</h2>
-
-<img data-src="images/record-on-zoom.png" class="quarto-figure quarto-figure-center r-stretch" alt="Record on zoomed"></section>
 <section id="thank-you-for-your-attention" class="slide level2" data-background-color="black" data-background-image="../../../../images/stj_posit.JPEG" data-background-size="100px" data-background-repeat="repeat">
 <h2>Thank you for your attention!</h2>
 
 
-</section></section>
+</section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <p><img src="../../../../images/hafro.png" class="slide-logo"></p>
 <div class="footer footer-default">
-<p><a href="https://heima.hafro.is/~sigurdur/adv-lsss-acou/materials/thursday-4th/siggi/adcp-ek-bottom-lsss">🔗 https://heima.hafro.is/~sigurdur/acou-train/</a> / SÞJ Thursday</p>
+<p><a href="https://heima.hafro.is/~sigurdur/acou-train/materials/thursday-4th/siggi/double-repeat">🔗 https://heima.hafro.is/~sigurdur/acou-train/</a> / SÞJ Thursday</p>
 </div>
 </div></div>
 
@@ -250,7 +319,7 @@ Sigurður Þór Jónsson
 'jumpToSlide': true,
 'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"8\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
 'chalkboard': {"buttons":true},
-'multiplex': {"secret":"16983005538447049362","id":"b97d1d33a669bcff","url":"https://reveal-multiplex.glitch.me/"},
+'multiplex': {"secret":"93bbdf3afb0c3f2198c174882f794285","id":"4522a20482bc9db3b5a83943ec4fe80c40a2e8f2152bedcda9dd4b8c25dae29f","url":"https://multiplex.up.railway.app/"},
 'smaller': false,
  
         // Display controls in the bottom right corner

@@ -81,18 +81,4 @@ R and quarto enthusiast
 
 ![](images/record-on-zoom.png){fig-alt="Record on zoomed" fig-align="center"}
 
--   blabla
-
-## Korona bottom
-
-More than 5 year ago I got some functionality introduced into Korona
-
--   Instad of 'white-ing' out the bottom (white line on fishermans echogram), I requested keeping a bottom layer and throwing everything else out.
-
--   Can be useful under the rubric '**bottom as a reference**' if you e.g. cross the 'same' bottom more than once.
-
--   Ran into some trouble locating and recreating ending with overheating my laptop this morning! 
-
--   Demo an example with 'hand' generated bottom layer export
-
 ## Thank you for your attention! {background-color="black" background-image="../../../../images/stj_posit.JPEG" background-size="100px" background-repeat="repeat"}
