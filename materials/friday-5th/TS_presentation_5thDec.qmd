@@ -2,7 +2,7 @@
 title: "When to Sample Capelin"
 subtitle: "Timing Acoustic Surveys for Stock Assessment"
 author: "Teresa Silva and Sigurður Þ Jónsson"
-date: "December 5, 2024"
+date: "December 5, 2025"
 format: 
   revealjs:
     theme: simple
@@ -11,11 +11,11 @@ format:
     background-transition: fade
 ---
 
-## Introduction {.smaller}
+# Introduction {.smaller}
 
 **Why Capelin Survey Timing is Critical**
 
--   Capelin (*Mallotus villosus*) - keystone forage fish in North Atlantic
+-   Capelin (*Mallotus villosus*) - keystone forage fish in Icelandic and Greenland ecosystems
 -   Highly variable stock with boom-bust dynamics
 -   Critical prey for cod, haddock, seabirds, and marine mammals
 
@@ -82,12 +82,12 @@ Stock size varies dramatically (0.5 to 3+ million tonnes)
 -   **Spring:** Concentrated on spawning grounds (south coast)
 
 ::: fragment
-**Key Insight:** Distribution changes dramatically throughout the year
+**Key Insight:** Distribution changes can quickly throughout the year
 :::
 
 ------------------------------------------------------------------------
 
-## Survey Options: When to Sample?
+# Survey Options: When to Sample?
 
 **Three Main Survey Windows**
 
@@ -105,7 +105,6 @@ Stock size varies dramatically (0.5 to 3+ million tonnes)
 
 ## Winter Acoustic Survey {.smaller}
 
-**The Icelandic Approach**
 
 ![](images/capelin_winter_survey_track.png){fig-align="center" width="65%"}
 
@@ -113,8 +112,9 @@ Stock size varies dramatically (0.5 to 3+ million tonnes)
 
 **Rationale:**
 
--   Capelin migrating toward spawning grounds
--   **High density aggregations** (easier to detect acoustically)
+-   Capelin migrating toward spawning grounds northwest to east of Iceland
+-   **High density aggregations** (easier to detect acoustically) in open water
+-   Sampling in shallow depths may pose problems as capelin may be very close to the bottom in some areas or above the depth zone.
 -   Stock concentrated in smaller area (more efficient coverage)
 -   Mature stock (target for fishery management)
 
@@ -129,7 +129,7 @@ Stock size varies dramatically (0.5 to 3+ million tonnes)
 -   Dense schools
 -   Predictable migration routes
 -   Shallower depths
--   Less vertical migration
+-   Less vertical migration (generally capelin is between )
 
 **Mature Stock**
 
@@ -198,7 +198,7 @@ Spawning migration behavior makes capelin most detectable in winter
 
 ------------------------------------------------------------------------
 
-## Acoustic Detection of Capelin {.smaller}
+# Acoustic Detection of Capelin {.smaller}
 
 **Technical Considerations**
 
@@ -240,7 +240,7 @@ Spawning migration behavior makes capelin most detectable in winter
 
 ------------------------------------------------------------------------
 
-## Temperature and Capelin Distribution {.smaller}
+# Temperature and Capelin Distribution {.smaller}
 
 **Environmental Influence on Timing**
 
@@ -306,7 +306,7 @@ Survey timing may need adjustment as climate changes
 -   Recruitment indicator
 -   Feeding distribution
 
-**Larval Surveys:**
+**Larval Surveys:** (DELETE IF NOT RELEVANT)
 
 -   Spawning success
 -   Post-spawning mortality
@@ -330,7 +330,7 @@ Survey timing may need adjustment as climate changes
 
 ------------------------------------------------------------------------
 
-## Assessment Timeline {.smaller}
+# Assessment Timeline {.smaller}
 
 **From Survey to Management**
 
@@ -339,7 +339,7 @@ January-February:  Winter Acoustic Survey
         ↓
 February:          Data processing and QC
         ↓
-March:             Stock Assessment (ICES)
+March:             Stock Assessment (MFRI)
         ↓
 March :             TAC Recommendation
         ↓
@@ -354,7 +354,7 @@ This tight timeline requires winter survey timing.
 
 ------------------------------------------------------------------------
 
-## Case Example: 2024 Winter Survey {.smaller}
+# Case Example: 2024 Winter Survey {.smaller}
 
 **Recent Survey Results**
 
@@ -364,8 +364,9 @@ This tight timeline requires winter survey timing.
 
 **Findings:**
 
--   High concentrations south of Iceland
+-   High concentrations southeast of Iceland
 -   Good weather conditions (most years not this lucky!)
+- not so much presence of ie
 -   Estimated spawning stock: \~1.2 million tonnes
 -   Strong 2022 year class detected
 
@@ -729,8 +730,7 @@ Historical survey data available from MFRI and ICES databases
 -   Marine and Freshwater Research Institute (MFRI/Hafró)
 -   Research vessel *Árni Friðriksson* crew
 -   Icelandic capelin survey teams
--   ICES Working Group on Widely Distributed Stocks
 
 ![](images/hafro.png){fig-align="center" width="25%"}
 
-*Sustainable management through scientific excellence*
+
