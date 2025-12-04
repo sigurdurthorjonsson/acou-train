@@ -88,7 +88,7 @@ detach()
 
 ::: {.column width="60%"}
 
-![](second-go.png){width=80%}
+![](img/second-go.png){width=80%}
 
 :   Transect lay-out
 
@@ -96,6 +96,14 @@ detach()
 
 ::::
 
+## From the field I
+
+![](img/IMG_2011.jpg)
+
+
+## From the field II
+
+![](img/IMG_2019.jpg)
 
 ## Results --- Polar Ammassak
 
