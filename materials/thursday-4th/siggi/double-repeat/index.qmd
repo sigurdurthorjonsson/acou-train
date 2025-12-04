@@ -105,6 +105,10 @@ detach()
 
 ![](img/IMG_2019.jpg)
 
+## From the field III (?????)
+
+![](img/IMG_2016.mov)
+
 ## Results --- Polar Ammassak
 
 ```{r}
