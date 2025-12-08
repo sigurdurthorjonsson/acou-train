@@ -49,17 +49,21 @@ subtitle: "3 day workshop at Hafró/MFRI in preparation for the capelin surveys"
 
 Participants could familiarize themselves with [info given on this link](materials/recycle.qmd).
 
-
 ### 1st day Dec 3rd
 
+<<<<<<< HEAD
 Teresa (1h)
+=======
+Teresa (1/2 h) 
+
 
 -   Basic acoustic theory
 
 -   Importance of calibration
 
 -   EK80 software overview
-  [presentation slides](materials/wednesday-3rd/fisheries_acoustics_ts.pptx)
+[presentation slides](materials/wednesday-3rd/fisheries_acoustics_ts.pptx)
+ 
 
 Bjossi, Sigvaldi and Teresa (\~2 h after 10 PM break)
 
@@ -81,21 +85,26 @@ Sigurður & Teresa (1.5h) - Installation of LSSS and start survey scrutinization
 
 Teresa (1h)
 
--   When to sample during the capelin surveys! Timing Acoustic Surveys for Stock Assessment.
+-   [When to sample during the capelin surveys! Timing Acoustic Surveys for Stock Assessment.](materials/friday-5th/TS_presentation_5thDec.qmd)
 
- Sigurvin & Sigurður (1h)
+Sigurvin & Sigurður (1h)
 
-    -   [Sonar Profos & ICES metadata](materials/friday/sigurvin/LSSS_course_sigurvin.pptx)
+[Sonar Profos & ICES metadata](materials/thursday-4th/sigurvin/LSSS_course_sigurvin.pptx)
 
-    -   [EK80 Processed data](materials/friday/siggi/adcp-ek-bot-lsss/)
+[EK80 Processed data](materials/thursday-4th/siggi/adcp-ek-bot-lsss/)
 
-    -   Discussion about trawl trajectory on echogram with Marport/Scanmar integration
+[Double coverage](materials/thursday-4th/siggi/double-repeat/)
 
-  Sigurður & Teresa
+
+```         
+-   Discussion about trawl trajectory on echogram with Marport/Scanmar integration
+```
+
+Sigurður & Teresa
 
 -   Continuation with the scrutinization
 
-<!--[Teresa's slides](materials/monday/teresa/Post-processing_LSSS_teresa_Silva.pptx) and [simple demo](materials/monday/teresa/SimpleDemo.zip).->
+
 
 ### Other information:
 
