@@ -31,50 +31,21 @@ Capelin timing is particularly critical because of their role in the ecosystem a
 
 ------------------------------------------------------------------------
 
-## Capelin Life Cycle
-
-![](images/capelin_life_cycle.png){fig-align="center" width="80%"}
-
-**Annual Cycle:**
-
--   **Spring (Mar-May):** Spawning migration and spawning
--   **Summer (Jun-Aug):** Feeding in open ocean
--   **Autumn (Sep-Nov):** Feeding and maturation
--   **Winter (Dec-Feb):** Pre-spawning migration begins
-
-------------------------------------------------------------------------
-
-## The Icelandic Capelin Stock {.smaller}
+## The IEGJM Capelin Stock {.smaller}
 
 **Stock Characteristics**
 
-::::: columns
-::: {.column width="50%"}
 -   Short-lived (2-4 years)
 -   Semelparous (spawn once and die)
 -   Temperature-dependent distribution
 -   Feeds on zooplankton (mainly copepods)
 -   Spawns on south and southwest coasts
-:::
-
-::: {.column width="50%"}
-![](images/iceland_capelin_distribution.png){width="100%"}
-
-*Typical distribution areas by season*
-:::
-:::::
-
-::: callout-important
-Stock size varies dramatically (0.5 to 3+ million tonnes)
-:::
 
 ------------------------------------------------------------------------
 
 ## Capelin Migration Patterns {.smaller}
 
-**Seasonal Movements Around Iceland**
-
-![](images/capelin_migration_map.png){fig-align="center" width="70%"}
+**Seasonal Movements Around Iceland** ![](images/clipboard-611894884.png){fig-align="center" width="65%"}
 
 -   **Summer:** North and east of Iceland (feeding)
 -   **Autumn:** Widespread in Iceland-Greenland-Jan Mayen area
@@ -82,12 +53,11 @@ Stock size varies dramatically (0.5 to 3+ million tonnes)
 -   **Spring:** Concentrated on spawning grounds (south coast)
 
 ::: fragment
-**Key Insight:** Distribution changes can quickly throughout the year
 :::
 
 ------------------------------------------------------------------------
 
-# Survey Options: When to Sample?
+## Survey Options: When to Sample?
 
 **Three Main Survey Windows**
 
@@ -96,17 +66,13 @@ Stock size varies dramatically (0.5 to 3+ million tonnes)
     -   Dispersed distribution
 2.  **Autumn Survey (October)**
     -   Pre-spawning, maturing stock
-    -   Moderate aggregation
 3.  **Winter Survey (January-February)**
     -   Pre-spawning migration
     -   High aggregation
 
 ------------------------------------------------------------------------
 
-## Winter Acoustic Survey {.smaller}
-
-
-![](images/capelin_winter_survey_track.png){fig-align="center" width="65%"}
+# Winter Acoustic Survey {.smaller}
 
 **Timing:** Mid-January to early February
 
@@ -139,14 +105,12 @@ Stock size varies dramatically (0.5 to 3+ million tonnes)
 :::
 
 ::: {.column width="50%"}
-![](images/capelin_school_echogram.png){width="100%"}
-
-*Acoustic echogram showing dense capelin schools*
+*Acoustic echogram showing dense capelin schools southwest of Iceland* ![](images/clipboard-4194101722.png){fig-align="center" width="100%"}
 :::
 :::::
 
 ::: callout-tip
-Spawning migration behavior makes capelin most detectable in winter
+
 :::
 
 ------------------------------------------------------------------------
@@ -158,9 +122,9 @@ Spawning migration behavior makes capelin most detectable in winter
 -   **Timing Aligns with Assessment Cycle**
     -   Survey in January-February
     -   Assessment in February-March
-    -   TAC set before fishing season opens
+    -   TAC set
 -   **Focused Survey Area**
-    -   South and southwest of Iceland
+    -   Northwest to and northeast e.g  of Iceland
     -   Shorter survey duration (\~2 weeks)
     -   Lower vessel costs
 -   **Management Relevance**
@@ -184,37 +148,49 @@ Spawning migration behavior makes capelin most detectable in winter
 
 **Mitigation:**
 
--   Ice-strengthened research vessels (Arni F is normaly used in winter close to ice as the personal is training for drifting ice)
+-   Ice-strengthened research vessels
 -   Flexible scheduling (weather windows)
 -   Extended survey period allocation
 :::
 
 ::: {.column width="50%"}
-![](images/winter_conditions_iceland.png){width="100%"}
-
-*Winter survey conditions around Iceland*
 :::
 :::::
 
 ------------------------------------------------------------------------
 
-# Acoustic Detection of Capelin {.smaller}
+## Acoustic Detection of Capelin {.smaller}
 
 **Technical Considerations**
-
-![](images/Sine_waves_different_frequencies.png){fig-align="center" width="50%"}
 
 **Frequency Selection:**
 
 -   **38 kHz:** Standard for capelin surveys
 -   Good penetration and detection
--   Clear separation from other species if we use multifrequency
+-   Clear separation from other species if we use multifrequency, namely krill at 120 kHz
+
+![](images/clipboard-2201400622.png){fig-align="center" width="50%"}
+
+------------------------------------------------------------------------
 
 **Challenges:**
 
--   Small target strength (small fish) and different in Multiplefrequency response (Hector work)
+::: incremental
+::: {.column width="50%"}
+
+-   Weak target strength (small fish or weak schools)
+
+-   Multifrequency variability if predators are present (Héctor Peña, IMR work)
+
 -   Dense schools can cause acoustic shadowing
--   Need to distinguish from other small pelagics (herring juveniles)
+
+-   Need to distinguish from other small pelagics (juveniles)
+:::
+::: {.column width="50%"}
+![Frequency response (centred at 38kHz) of several groups. Fish groups are blue (capelin, herring, and polar cod), and krill are in green (Thysanoessa sp) and red (M. norvegica).](images/multifrequ.png){fig-align="center" width="80%"}
+
+:::
+::: 
 
 ------------------------------------------------------------------------
 
@@ -222,75 +198,140 @@ Spawning migration behavior makes capelin most detectable in winter
 
 **Systematic Parallel Transects**
 
-![](images/capelin_transect_design.png){fig-align="center" width="65%"}
+![](images/clipboard-40640943.png){fig-align="center" width="65%"}
+
+
+
+------------------------------------------------------------------------
 
 **Base Design:**
 
--   East-west transects, 30 n.mi. spacing
+-   East-west transects, 10 n.mi. spacing e.g.
 -   Covers typical distribution area
 -   Systematic coverage for abundance estimation
+
+------------------------------------------------------------------------
 
 **Adaptive Components:**
 
 -   Additional transects in high-density areas
+-   Extended coverage if distribution is wider than expected
+-   Real-time decision making based on acoustic data and samples results
 
--   Extended coverage if distribution is wider than expected **#add figures of possible extentions**
+![](images/clipboard-1562847904.png){fig-align="center" width="65%"}
 
--   Real-time decision making based on acoustic data
 
 ------------------------------------------------------------------------
 
-# Temperature and Capelin Distribution {.smaller}
 
-**Environmental Influence on Timing**
+## Acoustic Registration Examples {.smaller}
+
+**Reading Echograms: Key Patterns**
 
 ::::: columns
-::: {.column width="60%"}
--   **Cold Years:**
-    -   Later migration
-    -   More southern distribution
-    -   May need to extend survey south
--   **Warm Years:**
-    -   Earlier migration
-    -   More northern spawning
-    -   Different spatial coverage needed
+::: {.column width="50%"}
+**High-Density Registration:**
 
-**Climate Change:** Warming trend affecting timing
+-   Strong backscatter (red/orange)
+-   Depth: 50-200m
+-   Dense aggregations
+-   **Action: Prime fishing area**
 :::
 
-::: {.column width="40%"}
-![](images/capelin_temperature_preference.png){width="100%"}
+::: {.column width="50%"}
+**Low-Density Registration:**
 
-*Temperature preferences by life stage*
+-   Weak scattered signals
+-   Dispersed individuals
+-   Mixed with noise
+-   Difficult to target with the trawl
+-   **Action: Move to better area**
 :::
 :::::
 
-::: callout-note
-Survey timing may need adjustment as climate changes
+------------------------------------------------------------------------
+
+## When to Fish: Acoustic Indicators {.smaller}
+
+**Decision Criteria Based on Acoustic Data**
+
+**✓ Good Indicators:**
+
+::: incremental
+-   **NASC values \> 1000 m²/nmi²** (high biomass density)
+-   Dense, continuous schools on echogram
+-   School depth: 50-150m (optimal trawling depth)
+-   Clear species separation (38 kHz and multifrequency confirmation)
+-   Stable acoustic marks (not just passing through)
+:::
+
+**✗ Poor Indicators:**
+
+::: incremental
+-   NASC \< 100 m²/nmi² (too dispersed)
+-   Scattered weak signals
+-   Very deep (\>250m) or surface schools
+-   Mixed species signals
+-   Highly mobile/transient registrations
 :::
 
 ------------------------------------------------------------------------
 
-## Multi-Year Consistency {.smaller}
+### Real-Time Fishing Guidance {.smaller}
+**Using Acoustic Data for Fleet Operations**
+EK60 color scale for NASC values **Color-Coded Zones Based on NASC:**
 
-**Importance of Consistent Timing**
+-   🔴 **Red (NASC \> 2000):** Excellent fishing - deploy immediately
+-   🟡 **Yellow (NASC 500-2000):** Moderate - selective fishing
+-   🟢 **Green (NASC \< 500):** Poor - search for better areas
 
-**Benefits:**
+------------------------------------------------------------------------
 
--   Comparable time series (1978-present)
--   Reliable trend detection
--   Reduced bias in assessment
--   Historical data valuable for modeling
+**Communication:**
 
-**Challenges:**
+-   Survey vessels share acoustic maps with fishing fleet
+-   Real-time updates during winter fishery
+-   Helps optimize catch efficiency and reduce bycatch (if any)
 
--   Weather may force delays (±1 week)
--   Stock distribution changes
--   Must balance consistency with data quality
+::: callout-important
+## When in Doubt: TRAWL!
+**Ground-Truthing Acoustic Data**
 
-![](images/capelin_time_series.png){fig-align="center" width="60%"}
+-   Acoustic signals can be ambiguous (capelin vs. herring juveniles, krill, etc.)
+-   **Best practice:** Take trawl samples to verify species and size composition
+-   Collect biological data: length, weight, maturity, age
+-   Validate TS assumptions and improve acoustic interpretation
+-   Better safe than sorry - prevents targeting wrong species or undersized fish
+:::
 
-*Capelin biomass estimates 1980-2024*
+------------------------------------------------------------------------
+
+## Capelin School Characteristics {.smaller}
+
+**Identifying Good Fishing Targets**
+
+::::: columns
+::: {.column width="60%"}
+**Acoustic Signatures:**
+
+-   **Target Strength (TS)**
+-   **School depth:** Typically 50-200m during migration
+-   **School shape:** Dense layers or columns
+-   **Vertical extent:** 10-50m thick layers
+-   **Movement:** Often stationary or slow-moving during day
+
+Note that schools aggregations can vary between daytime and season 
+    
+:::
+
+::: {.column width="40%"}
+*Typical capelin school acoustic profile (shown later in LSSS)*
+
+*Depth distribution by time of day; capelin conducts diel vertical migration*
+
+
+:::
+:::::
 
 ------------------------------------------------------------------------
 
@@ -306,7 +347,7 @@ Survey timing may need adjustment as climate changes
 -   Recruitment indicator
 -   Feeding distribution
 
-**Larval Surveys:** (DELETE IF NOT RELEVANT)
+**Larval Surveys:** (not currently done in Iceland)
 
 -   Spawning success
 -   Post-spawning mortality
@@ -339,11 +380,11 @@ January-February:  Winter Acoustic Survey
         ↓
 February:          Data processing and QC
         ↓
-March:             Stock Assessment (MFRI)
+February/March:    Stock Assessment (MFRI)
         ↓
-March :             TAC Recommendation
+February/March :   TAC Recommendation
         ↓
-15 Oct-15 MArch:         Fishing Season Opens
+15 Oct-15 April:   Fishing Season 
 ```
 
 ::: callout-important
@@ -354,101 +395,18 @@ This tight timeline requires winter survey timing.
 
 ------------------------------------------------------------------------
 
-# Case Example: 2024 Winter Survey {.smaller}
+## Case Example: 2024 Winter Survey {.smaller}
 
 **Recent Survey Results**
-
-![](images/capelin_2024_distribution.png){fig-align="center" width="60%"}
 
 **Survey Period:** January 20 - February 5, 2024
 
 **Findings:**
 
 -   High concentrations southeast of Iceland
--   Good weather conditions (most years not this lucky!)
-- not so much presence of ie
--   Estimated spawning stock: \~1.2 million tonnes
--   Strong 2022 year class detected
+-   Good weather conditions
 
-------------------------------------------------------------------------
-
-## Historical Lessons {.smaller}
-
-**What We've Learned**
-
-**1990s Collapse:**
-
--   Survey timing remained consistent
--   Detected stock collapse early
--   Enabled precautionary management
-
-**2000s Recovery:**
-
--   Consistent surveys tracked recovery
--   Timing allowed assessment of rebuilding
--   Management adjusted as stock grew
-
-::: fragment
-**Key Lesson:** Consistent winter survey timing has been crucial for detecting both collapses and recoveries
-:::
-
-------------------------------------------------------------------------
-
-## Climate Change Implications {.smaller}
-
-**Adapting to Changing Conditions**
-
-**Observed Changes:**
-
--   Warming ocean temperatures around Iceland
--   Earlier spawning in some years
--   Northward shift in distribution
--   Changes in plankton phenology
-
-**Survey Adaptations:**
-
--   Monitoring for timing shifts
--   Flexible spatial coverage
--   Extended survey period option
--   Integration with ocean monitoring
-
-![](images/iceland_warming_trend.png){fig-align="center" width="55%"}
-
-------------------------------------------------------------------------
-
-## Alternative Approaches? {.smaller}
-
-**Could We Survey at Other Times?**
-
-::::: columns
-::: {.column width="50%"}
-**Summer Survey:**
-
-❌ Dispersed distribution
-
-❌ Lower catchability
-
-❌ Too early for assessment cycle
-
-✓ Good for immature capelin
-:::
-
-::: {.column width="50%"}
-**Autumn Survey:**
-
-❌ Very wide distribution
-
-❌ Mixed maturity stages
-
-❌ More difficult logistics
-
-✓ Earlier warning signal
-:::
-:::::
-
-::: callout-tip
-**Conclusion:** Winter remains optimal despite challenges
-:::
+![](images/clipboard-2987305414.png){fig-align="center" width="60%"}
 
 ------------------------------------------------------------------------
 
@@ -456,45 +414,28 @@ This tight timeline requires winter survey timing.
 
 **Best Practices for Capelin Surveys**
 
-1.  **Maintain Winter Timing**
+```         
+1.  Maintain Winter Timing
     -   January-February optimal window
     -   Spawning migration = high catchability
     -   Aligns with assessment needs
-2.  **Adaptive Spatial Coverage**
+    
+2.  Adaptive Spatial Coverage
     -   Monitor environmental conditions
     -   Adjust coverage for distribution shifts
     -   Real-time survey decisions
-3.  **Consistent Methodology**
+     -  Strata/ transect design
+    
+3.  Consistent Methodology
     -   Same frequency (38 kHz)
-    -   Similar transect design
+    - 70dB threshold
     -   Standardized data processing
-4.  **Integrate Multiple Data Sources**
-    -   Summer surveys for recruitment
+    
+4.  Integrate Multiple Data Sources
+    -   Autumn surveys for recruitment
     -   Fishery data for validation
     -   Environmental monitoring
-
-------------------------------------------------------------------------
-
-## Future Developments {.smaller}
-
-**Innovations on the Horizon**
-
-**Technology:**
-
--   Autonomous vehicles (Saildrones, gliders)
--   Continuous monitoring potential
--   Satellite-derived environmental data
--   AI for target identification
-
-**Methodology:**
-
--   Improved target strength models
--   Better handling of mixed schools
--   Integration with ecosystem models
-
-::: callout-note
-Even with new technology, winter spawning migration will likely remain the optimal sampling window
-:::
+```
 
 ------------------------------------------------------------------------
 
@@ -510,14 +451,6 @@ Even with new technology, winter spawning migration will likely remain the optim
 
 ✓ **Practical:** Focused survey area (despite weather challenges)
 
-✓ **Proven:** 45+ years of successful time series
-
-::: fragment
-**The Bottom Line:**
-
-Winter acoustic surveys of pre-spawning capelin provide the most reliable abundance estimates for management, despite operational challenges.
-:::
-
 ------------------------------------------------------------------------
 
 ## Questions & Discussion
@@ -527,64 +460,6 @@ Winter acoustic surveys of pre-spawning capelin provide the most reliable abunda
 ![](images/hafro.png){fig-align="center" width="30%"}
 
 Contact: \[teresa.silva\@hafogvatn.is\]
-
-*Questions about capelin survey timing?*
-
-------------------------------------------------------------------------
-
-## Developing a Sampling Strategy {.smaller}
-
-**Step-by-Step Approach**
-
-1.  **Define Objectives**
-    -   What population metrics are needed?
-    -   What precision is required?
-2.  **Review Historical Data**
-    -   Past survey results
-    -   Fishery data patterns
-    -   Long-term trends
-3.  **Assess Constraints**
-    -   Budget and resources
-    -   Vessel availability
-    -   Weather windows
-4.  **Pilot Studies**
-    -   Test timing alternatives
-    -   Evaluate data quality
-    -   Refine approach
-
-------------------------------------------------------------------------
-
-## Multi-Year Consistency vs. Adaptive Design {.smaller}
-
-::::: columns
-::: {.column width="50%"}
-**Consistency**
-
-✓ Time series continuity
-
-✓ Trend detection
-
-✓ Reduced bias
-
-⚠ May miss optimal timing
-:::
-
-::: {.column width="50%"}
-**Adaptive Design**
-
-✓ Responds to changes
-
-✓ Optimizes data quality
-
-✓ Cost-effective
-
-⚠ Complicates trend analysis
-:::
-:::::
-
-::: callout-tip
-**Best Practice:** Maintain core timing while allowing adaptive components
-:::
 
 ------------------------------------------------------------------------
 
@@ -601,109 +476,8 @@ Contact: \[teresa.silva\@hafogvatn.is\]
     -   Historical consistency checks
     -   Spatial coverage assessment
 
-![](images/survey_coverage_map.png){fig-align="center" width="50%"}
-
 ------------------------------------------------------------------------
 
-## Climate Change Considerations {.smaller}
-
-**Adapting to Changing Conditions**
-
--   **Observed Shifts**
-    -   Earlier spawning timing
-    -   Poleward distribution shifts
-    -   Extended feeding seasons
-
-::: fragment
-**Implications for Surveys:**
-
--   Need for flexible timing
--   Expanded spatial coverage
--   More frequent reviews of survey protocols
-:::
-
-![](images/climate_shift_diagram.png){fig-align="center" width="55%"}
-
-------------------------------------------------------------------------
-
-## Future Directions {.smaller}
-
-**Innovations in Survey Design**
-
-::::: columns
-::: {.column width="50%"}
-**Technology**
-
--   Autonomous vehicles
--   Continuous monitoring
--   Satellite remote sensing
--   eDNA sampling
-:::
-
-::: {.column width="50%"}
-**Methodology**
-
--   Machine learning for optimal timing
--   Real-time adaptive surveys
--   Integrated multi-platform data
-:::
-:::::
-
-::: callout-note
-These advances may reduce importance of "perfect" timing
-:::
-
-------------------------------------------------------------------------
-
-## Key Recommendations {.smaller}
-
-**Best Practices for Sampling Timing**
-
-1.  **Know Your Species**
-    -   Study life history and behavior
-    -   Understand migration patterns
-2.  **Consider Multiple Factors**
-    -   Biological, environmental, and operational
-    -   Balance ideal vs. practical
-3.  **Maintain Consistency**
-    -   Build reliable time series
-    -   Document decisions
-4.  **Stay Adaptive**
-    -   Monitor for changes
-    -   Review and update protocols
-5.  **Collaborate**
-    -   Coordinate with other surveys
-    -   Share data and insights
-
-------------------------------------------------------------------------
-
-## Conclusions {.smaller}
-
-**Strategic Timing is Critical**
-
--   No "one-size-fits-all" solution
--   Requires species-specific knowledge
--   Must balance multiple competing factors
--   Consistency enables trend detection
--   Flexibility allows adaptation to change
-
-::: fragment
-**The Bottom Line:**
-
-Optimal sampling timing maximizes data quality while working within practical constraints, ultimately supporting sustainable fisheries management.
-:::
-
-------------------------------------------------------------------------
-
-## Questions & Discussion
-
-**Thank you for your attention!**
-
-![](images/hafro.png){fig-align="center" width="30%"}
-
-Contact: \[your.email\@example.com\]
-
-------------------------------------------------------------------------
 
 ## References {.smaller}
 
@@ -716,21 +490,3 @@ Contact: \[your.email\@example.com\]
 -   MFRI (Marine and Freshwater Research Institute). Annual capelin acoustic survey reports.
 
 -   ICES. (2024). Capelin in subareas 5 and 14 and Division 2.a west of 5°W (Iceland and Faroes grounds, East Greenland, Jan Mayen area).
-
-::: callout-note
-Historical survey data available from MFRI and ICES databases
-:::
-
-------------------------------------------------------------------------
-
-## Acknowledgments
-
-**Thank You**
-
--   Marine and Freshwater Research Institute (MFRI/Hafró)
--   Research vessel *Árni Friðriksson* crew
--   Icelandic capelin survey teams
-
-![](images/hafro.png){fig-align="center" width="25%"}
-
-
