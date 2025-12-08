@@ -52,13 +52,14 @@ Participants could familiarize themselves with [info given on this link](materia
 
 ### 1st day Dec 3rd
 
-Teresa (1h)[presentation slides] (materials/wednesday-3rd/fisheries_acoustics_ts.pptx)
+Teresa (1h)
 
 -   Basic acoustic theory
 
 -   Importance of calibration
 
 -   EK80 software overview
+  [presentation slides](materials/wednesday-3rd/fisheries_acoustics_ts.pptx)
 
 Bjossi, Sigvaldi and Teresa (\~2 h after 10 PM break)
 
